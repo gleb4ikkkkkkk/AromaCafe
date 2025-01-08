@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кофейня "Арома Кафе"</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #ffe7c7, #d68d43); /* Тёплый градиент */
+            color: #4b3029;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Немного текстуры на фоне через полупрозрачные слои */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.05); /* Легкая текстура для глубины */
+            pointer-events: none;
+        }
+
+        header {
+            background-color: rgba(139, 90, 43, 0.7); /* Полупрозрачный фон для шапки */
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #704214;
+        }
+
+        header .logo {
+            font-size: 48px;
+            font-weight: bold;
+            color: #fff7e6;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px #704214;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #fff7e6;
+            text-shadow: 1px 1px 4px #704214;
+        }
+
+        .content {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.85); /* Белый полупрозрачный фон для контента */
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 50px auto;
+            max-width: 1200px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            font-size: 28px;
+            color: #8b5a2b;
+            border-bottom: 2px solid #8b5a2b;
+            padding-bottom: 5px;
+        }
+
+        .menu ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu li {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .contact {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: rgba(112, 66, 20, 0.8);
+            text-align: center;
+            padding: 10px;
+            color: #fff7e6;
+            font-size: 14px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">☕ Арома Кафе</div>
+        <h1>Добро пожаловать в "Арома Кафе"!</h1>
+    </header>
+
+    <div class="content">
+        <div class="section">
+            <h2>О нас</h2>
+            <p>Мы – маленькая уютная кофейня, где можно насладиться ароматным кофе, свежей выпечкой и дружеской атмосферой. Заходите к нам в любое время!</p>
+            <p><strong>Важно:</strong> Кофейня не настоящая, она была создана с помощью ChatGPT для демонстрационных целей.</p>
+        </div>
+        <div class="section menu">
+            <h2>Наше меню</h2>
+            <ul>
+                <li>Эспрессо – 150 ₽</li>
+                <li>Латте – 200 ₽</li>
+                <li>Капучино – 220 ₽</li>
+                <li>Американо – 180 ₽</li>
+                <li>Чизкейк – 350 ₽</li>
+                <li>Круассан – 120 ₽</li>
+            </ul>
+        </div>
+    <div class="section contact">
+    <h2>Контакты</h2>
+    <p>Адрес: г. Москва, ул. Кофейная, д. 123, оф. 45</p> <!-- Вымышленный адрес -->
+    <p>Телефон: +7 951 371 78 38</p>
+    <p>Email: <a href="mailto:aromacafe.moscow@gmail.com">aromacafe.moscow@gmail.com</a></p>
+</div>
